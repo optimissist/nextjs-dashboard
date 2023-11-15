@@ -9,7 +9,6 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
-import { sql } from '@vercel/postgres';
 
 export async function fetchRevenue() {
   // Add noStore() here prevent the response from being cached.
